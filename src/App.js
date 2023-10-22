@@ -5,11 +5,11 @@ import Loading from './components/TopLoading';
 
 function App() {
   return (
-    <>
-    <Loading/>
-   <MiddleLoading/>
-   <LowerLoading/>
-    </>
+    <div className='animate-pulse '>
+      <Loading />
+      <MiddleLoading/>
+      <LowerLoading/>
+    </div>
   );
 }
 
