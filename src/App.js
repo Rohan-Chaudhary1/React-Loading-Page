@@ -1,15 +1,13 @@
 import './App.css';
-import LowerLoading from './components/LowerLoading';
-import MiddleLoading from './components/MiddleLoading';
-import Loading from './components/TopLoading';
+import Navbar from './components/Navbar';
+import MainLoading from './loadingPage/MainLoading';
 
 function App() {
   return (
-    <div className='animate-pulse '>
-      <Loading />
-      <MiddleLoading/>
-      <LowerLoading/>
-    </div>
+    <>
+    <Navbar/>
+    <MainLoading/>
+    </>
   );
 }
 
