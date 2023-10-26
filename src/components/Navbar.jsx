@@ -6,7 +6,7 @@ const Navbar = () => {
   return (
     <header className='w-[1100px] mx-auto flex  mt-5'>
         <img src={logo} alt="logo" className='w-[75px] h-[50px] mr-[70px]'/>
-        <select className=' w-[200px] border border-[#BDBDBD] rounded-md font-[500]'>
+        <select className=' w-[200px] border border-[#BDBDBD] rounded-md font-[500] pl-3'>
             <option value="delhi">Delhi, NCR</option>
             <option value="delhi">Delhi, NCR</option>
             <option value="delhi">Delhi, NCR</option>
