@@ -36,3 +36,8 @@
     transform: rotate(360deg);
   }
 }
+
+#bed{
+  background-image: url("./assets/bed.jpg");
+  background-size: 100% 400px;
+}

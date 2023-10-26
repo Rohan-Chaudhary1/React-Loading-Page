@@ -1,8 +1,9 @@
 import './App.css';
-import Contact from './components/Contact';
-import Footer from './components/Footer';
 import Navbar from './components/Navbar';
 import MainLoading from './loadingPage/MainLoading';
+import Contact from './components/Contact';
+import Newsletter from './components/Newsletter'
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
     <Navbar/>
     <MainLoading/>
     <Contact/>
+    <Newsletter/>
     <Footer/>
     </>
   );
